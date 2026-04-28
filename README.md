@@ -1,17 +1,31 @@
-# Smart Campus API
+# Smart Campus API  
+### RESTful Room & Sensor Management System
 
-- Name: Janithya Vinuthmi Wadumethrige
-- Student ID: 20241447 / w2153566
-- Module: 5COSC022C.2 Client-Server Architectures
-- Assignment: Individual Coursework
+<p align="left">
+   <strong>Java 17</strong> &nbsp;&nbsp;|&nbsp;&nbsp;
+   <strong>JAX-RS (Jersey)</strong> &nbsp;&nbsp;|&nbsp;&nbsp;
+   <strong>Grizzly HTTP Server</strong> &nbsp;&nbsp;|&nbsp;&nbsp;
+   <strong>Apache Maven</strong>
+</p>
+
+## Coursework Information
+
+| Category     | Details                                   |
+|--------------|-------------------------------------------|
+| Student Name | Janithya Vinuthmi Wadumethrige            |
+| Student ID   | 20241447 / w2153566                       |
+| Module       | 5COSC022C.2 Client-Server Architectures   |
+| Assignment   | Individual Coursework                     |
 
 
-## Project Description
-This project is a fully RESTful API developed using Java, JAX-RS (Jersey), and the Grizzly HTTP server for a Smart Campus system.
+---
+## Project Overview
 
-The API is designed to manage **Rooms** and their associated **Sensors**, while also maintaining a collection of **Sensor Readings** over time. It allows clients to **create, retrieve, filter, and manage** these resources through standard RESTful endpoints.
+This project is a RESTful API developed for a Smart Campus system using **Java**, **JAX-RS (Jersey)**, and the **Grizzly HTTP server**. It manages **Rooms**, **Sensors**, and **Sensor Readings** through standard HTTP operations.
 
-All data is stored in-memory using efficient data structures such as HashMap, without relying on any external database. The system also includes features like query-based filtering, nested resources for sensor readings, exception handling, and request/response logging to simulate a real-world backend service.
+The API supports key features such as resource creation, retrieval, filtering, and nested resources. All data is stored in-memory using **HashMap** and **ArrayList**, making the system lightweight and easy to run without an external database.
+
+It also includes proper **error handling** and **request/response logging**, demonstrating core concepts of client-server architecture and RESTful API design.
 
 ---
 
