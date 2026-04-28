@@ -1,4 +1,4 @@
-package com.smart.api.resource;
+package com.smart.api.filter;
 
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;
