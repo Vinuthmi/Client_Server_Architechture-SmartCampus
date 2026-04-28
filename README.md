@@ -18,6 +18,7 @@ All data is stored in-memory using efficient data structures such as HashMap, wi
 ## Discovery Endpoint
 
 ### GET /api/v1
+*Sample response*
 ```json
 {
   "name": "Smart Campus API",
@@ -84,53 +85,50 @@ A Room represents a location within the campus where sensors are installed.
 - POST /sensors/{id}/readings → Add reading
 
 ---
-## How to Run
 
-### Prerequisites
-- Java (JDK 17 or higher)
-- Apache Maven
-- NetBeans (or any Java IDE)
+## Setup and Execution
+
+### Requirements
+Before running the project, make sure you have:
+- Java JDK 17 or higher installed  
+- Apache Maven installed  
 
 
-### Steps
-
-#### 1. Clone the repository:
+**1. Get the project**
 ```bash
 git clone https://github.com/Vinuthmi/SmartCampusAPI.git
-
+```
+**2. Navigate to the project folder**
+```bash
 cd SmartCampusAPI
 ```
-
-#### 2. Open the project in NetBeans:
-- File → Open Project  
-- Select the SmartCampusAPI folder  
-
-#### 3. Build the project:
+**3. Compile the project**
 ```bash
 mvn clean install
 ```
+**4. Launch the API server**
+```bash
+mvn exec:java
+```
+**Access the API**
 
-#### 4. Run the project:
-- Right-click the project → Run  
-
-
-### Server URL
-
-After running, the server will be available at:
-
+Once the server is running, open the following URL:
 
 http://localhost:8081/api/v1/
 
+**Testing**
 
----
+You can interact with the API using:
 
-### Testing
-
-You can test the API using:
-- Postman  
-- Browser  
+- Postman
+- Web browser
 - curl commands
 
+**Stopping the Server**
+
+To stop the server, simply terminate the running process in the terminal (Ctrl + C).
+
+---
   
 ## Sample cURL Commands
 ### 1. Discovery endpoint
