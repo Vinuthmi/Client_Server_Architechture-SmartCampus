@@ -50,7 +50,7 @@ public class RoomResource {
 
         if (room == null) {
         return Response.status(Response.Status.NOT_FOUND)
-                .entity("{\"error\":\"Room not found\"}")
+                .entity("{\"error\":\"Room not found!\"}")
                 .build();
         }
         
